@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/loicguillois/tp-owasp.git
+	fetch = +refs/*:refs/*
+	mirror = true
+[branch "dimitri"]
+	remote = origin
+	merge = refs/heads/main
